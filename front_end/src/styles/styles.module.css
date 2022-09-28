@@ -20,10 +20,12 @@
   padding: auto;
   text-decoration: none;
 }
+
 :hover.text {
   color: black;
   font-weight: bolder;
 }
+
 * {
   margin-top: 10px;
   margin-left: 10px;

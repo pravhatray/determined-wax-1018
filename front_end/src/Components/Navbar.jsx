@@ -47,7 +47,7 @@ const Navbar = () => {
             onMouseEnter={onOpen}
             onMouseLeave={onClose}
           >
-            Integartions
+            Integrations
           </MenuButton>
           <MenuList onMouseEnter={onOpen} onMouseLeave={onClose}>
             <MenuItem>
