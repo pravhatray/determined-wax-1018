@@ -72,17 +72,17 @@ app.patch("/:id", async (req, res) => {
 });
 
 
-app.get('/:userId/:projectId', async(req, res)=>{
-  try{
-    const {userId, projectId} = req.params;
-   let response = await Project.findById(projectId);
-   res.status(200).send(response);
-  }
-  catch(e){
-    res.status(401).send("eroor");
-  }
+// app.get('/:userId/:projectId', async(req, res)=>{
+//   try{
+//     const {userId, projectId} = req.params;
+//    let response = await Project.findById(projectId);
+//    res.status(200).send(response);
+//   }
+//   catch(e){
+//     res.status(401).send("eroor");
+//   }
   
-})
+// })
 
 
 module.exports = app;
